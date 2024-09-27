@@ -27,8 +27,8 @@ function makeSound(key) {
 
   switch (key) {
     case "w":
-      var tom1 = new Audio("sounds/tom-1.mp3");
-      tom1._play();
+      var audio = new Audio("tom-1.mp3");
+      audio.play();
       break;
 
     case "a":
